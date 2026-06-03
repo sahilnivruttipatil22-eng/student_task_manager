@@ -114,6 +114,7 @@ def add_student():
         #Close database connection
         cursor.close()
         connection.close()
+        
 
         return 'Student added successfully!'
     
